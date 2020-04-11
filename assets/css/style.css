@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     line-height: 150%;
-    margin-bottom: 15em;
+    margin-bottom: 5em;
 }
 .navbar {
     border-style: solid;
@@ -48,7 +48,7 @@ hr {
     margin: 0;
     border-top-width: .12em;
 }
-#pic {
+#pic, #pic1, #pic2, #pic3, #pic4, #pic5 {
     padding: 0;
     margin-top: 1em;
     transform: scale(1)
@@ -87,30 +87,25 @@ img:hover {
 #plchld3,
 #plchld4,
 #plchld5 {
-    width: 245px;
-    transform: scale(1);
-}
-
-.fgr {
     margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-figure {
-    margin: 0;
-    padding: 0;
-    z-index: 1;
-}
-
-figcaption {
     background-color: #4aaaa5;
     color: #ffffff;
     line-height: 250%;
-} 
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 93%
+}
+
+button {
+    border: none;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    line-height: 200%;
+    padding: 0 3% 0 3%;
+}
+
 
 
 
