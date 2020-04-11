@@ -12,109 +12,64 @@ body {
     margin: 0;
 
 }
-.navbar-brand {
+h1,
+#span2 { 
+    line-height: 2.5em;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+#portfolio {
+    border: 0px solid #cccccc;
+    border-width: 0 0.05em 0 0.05em;
+}
+#span {
     padding: 0 1em 0 1em;
     line-height: 3em;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-}
-h2,
-h3 { 
-    color: #4aaaa5;
-}
-#portfolio {
-    border: 0px solid #cccccc;
-    border-width: 0 0.05em 0 0.05em;"
-}
-#span {
     color: #ffffff;
     font-weight: bold;
     margin: 0;
 }
-.main-container {
-    width: 61em;
-    margin-top: 2em;
-}
-
-.section {
-    border-style: solid;
-    border-width: 0.05em;
-    border-color: #cccccc;
-    background-color: #ffffff;
-    width: 37em;
-    float: left;
-}
-
-aside {
-    text-align: center;
-    padding: 0 5% 0 5%;
-    background-color: #ffffff;
-    width: 270px;
-    height: 150px;
-    border-style: solid;
-    border-width: 0.5px;
-    border-color: #cccccc;
-}
-
-
-
-.hdr {
-    width: 61em;
-}
-span {
-    width:100%;
-    margin: 0;
+#main-nav, #main {
     padding: 0;
-    color: #ffffff;
 }
-
-/* nav {
-
-    margin-left: 0;
-    padding-top: 2%;
-} */
-
+#main {
+    margin: 0;
+}
+#main-section {
+    margin: 0;
+    margin-top: 1.2em;
+    border: solid 0.03em #cccccc;
+}
+hr {
+    margin: 0;
+    border-top-width: .12em;
+}
+#pic {
+    padding: 0;
+    margin-top: 1em;
+    transform: scale(1)
+}
+#prgh {
+    margin-top: 1em;
+}
+#side-section {
+    margin-top: 1.2em;
+    border: solid 0.03em #cccccc;
+}
 a {
     color: #777777;
-    text-decoration: none;
 }
-
-#port {
-    border-style: solid;
-    border-width: 0 0.5px 0 .5px;
-    border-color: #cccccc;
-    padding: 0 10px 0 10px;
-}
-
-a:first-child,
-a:last-child {
-    padding: 0 10px 0 10px;
-}
-
 a:hover {
     font-size: large;
 }
 
-/* img:hover {
+img:hover {
     transform: scale(1.1);
-} */
-
-#pic {
-    float: left;
-    margin-right: 4%;
-}
-
-#hr2 {
-    border-top: 0.5px solid #cccccc;
-}
-
-#hr1 {
-    border-top: 1px solid #cccccc;
-}
-
-
-
-.ftr {
+} 
+#bottom {
     border-top: 5px solid #4aaaa5;
     width: 100%;
     color: #cccccc;
@@ -154,10 +109,7 @@ figcaption {
     background-color: #4aaaa5;
     color: #ffffff;
     line-height: 250%;
-    text-align: center;
-    position: relative;
-    bottom: 25%;
-}
+} 
 
 
 
