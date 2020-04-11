@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     line-height: 150%;
-    padding-bottom: 3em;
+    margin-bottom: 5em;
 }
 .navbar {
     border-style: solid;
